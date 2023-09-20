@@ -9,7 +9,7 @@ export const MyForm = () => {
     return (
         <div className='form'>
             <TextField className='input' id="outlined-basic"
-                       label="Nyű tudú"
+                       label="Új tevékenység"
                        variant="outlined"
                        value={input}
                        onChange={(e) => setInput(e.target.value)}
